@@ -62,7 +62,7 @@ namespace CoronaDetails
                 lblDeaths.Text = "0";
                 lblPatiant.Text = "0";
                 lblRecoverd.Text = "0";
-            } 
+            }
 
             
         }
