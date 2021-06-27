@@ -53,9 +53,9 @@ namespace CoronaDetails
         {
             if (cmbCountries.SelectedIndex != 0)
             {
-                lblDeaths.Text = CasesData.entries[cmbCountries.SelectedIndex + 1].deaths;
-                lblPatiant.Text = CasesData.entries[cmbCountries.SelectedIndex + 1].cases;
-                lblRecoverd.Text = CasesData.entries[cmbCountries.SelectedIndex + 1].recovered;
+                lblDeaths.Text = CasesData.entries[cmbCountries.SelectedIndex - 1].deaths;
+                lblPatiant.Text = CasesData.entries[cmbCountries.SelectedIndex - 1].cases;
+                lblRecoverd.Text = CasesData.entries[cmbCountries.SelectedIndex - 1].recovered;
             }
             else
             {
